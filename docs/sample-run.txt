@@ -1,0 +1,30 @@
+model                        accuracy       f1
+logreg (scratch)               0.9912   0.9900
+logreg (sklearn)               0.9912   0.9900
+knn k=5 (scratch)              0.9558   0.9494
+knn k=5 (sklearn)              0.9558   0.9494
+gaussian-nb (scratch)          0.9027   0.8887
+gaussian-nb (sklearn)          0.9027   0.8887
+dataset=moons model=knn train=480 test=120
+{
+  "accuracy": 0.9917,
+  "precision": 0.9917,
+  "recall": 0.9918,
+  "f1": 0.9917,
+  "confusion_matrix": [
+    [
+      60,
+      1
+    ],
+    [
+      0,
+      59
+    ]
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "cv_accuracy_mean": 0.9979,
+  "cv_accuracy_std": 0.0042
+}
