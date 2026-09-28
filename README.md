@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ssolidssnake9/ml-pipeline-from-scratch)
+
 # ML Pipeline from Scratch
 
 Classifiers and evaluation metrics implemented from scratch in NumPy —
